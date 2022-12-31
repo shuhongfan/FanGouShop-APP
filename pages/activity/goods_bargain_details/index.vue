@@ -493,6 +493,8 @@
 						.uid + '&spid=' + this.uid + '&storeBargainId=' + this.storeBargainId,
 					imgUrl: that.bargainInfo.image
 				};
+        console.log(configTimeline);
+
 				if (this.$wechat.isWeixin()) {
 					this.$wechat.wechatEvevt([
 								"updateAppMessageShareData",
